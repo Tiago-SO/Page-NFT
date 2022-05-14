@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,7 +14,7 @@
   --color-input: #0D0D0D;
 }
 
-html {
+html{
   font-family: 'Montserrat', sans-serif;
   font-size: 62.5%;
 
@@ -26,7 +26,7 @@ body {
   
 }
 
-.topo {
+.topo{
   background-image: url(./assets/background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,14 +34,13 @@ body {
 
   display: flex;
   justify-content: center;
-
 }
 
-.container {
+.container{
   width: 1277px;
 }
 
-.topo header {
+.topo header{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,39 +48,39 @@ body {
   margin-bottom: 90px;
 
   font-family: 'Montserrat';
-  font-style: normal;
+  font-style: normal; 
 
   height: 50px;
 }
 
-.topo header h1 {
+.topo header h1{
   font-weight: 700;
   font-size: 40px;
   line-height: 49px;
 
 }
 
-.topo header h1 span {
+.topo header h1 span{
   color: var(--color-logo);
 }
 
-.topo header ul {
+.topo header ul{
   display: flex;
   gap: 60px;
 
   list-style: none;
 }
 
-.topo header ul li a {
+.topo header ul li a{
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.2rem;
   text-decoration: none;
   color: var(--text-color);
-
+  
 }
 
-.topo header button {
+.topo header button{
   width: 230px;
   height: 50px;
 
@@ -93,12 +92,12 @@ body {
   gap: 15px;
 }
 
-.topo header button:hover {
+.topo header button:hover{
   background-color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
 }
 
-.intro-nft {
+.intro-nft{
   display: flex;
   justify-content: space-between;
 
