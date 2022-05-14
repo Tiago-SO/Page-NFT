@@ -20,11 +20,10 @@ html {
 
 }
 
-body,
-html {
+body {
+  background-color: var(--body-background);
   color: var(--text-color);
-
-  width: 100vw;
+  
 }
 
 .topo {
@@ -36,8 +35,6 @@ html {
   display: flex;
   justify-content: center;
 
-  max-width: 1440px;
-  width: 100vw;
 }
 
 .container {
@@ -157,7 +154,6 @@ html {
 }
 
 .intro-nft-badge {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,11 +165,79 @@ html {
 
 }
 
-.galery ul{
+.galery{
   display: flex;
+  justify-content: center;
+}
+
+.galery ul {
+  display: flex;                              
   flex-wrap: wrap;
   row-gap: 60px;
   column-gap: 16px;
 
   list-style: none;
+}
+
+.info-data {
+  height: 660px;
+
+  display: flex;
+
+  margin-bottom: 150px;
+
+  border-bottom: 1px solid var(--subtitle-color);
+}
+
+.info-data-number {
+  width: 281px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-right: 1px solid var(--subtitle-color);
+}
+
+.info-data-number ul {
+  list-style: none;
+
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+.info-data-number ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.info-data-number ul li strong {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+
+  margin-bottom: 8px;
+}
+
+.info-data-number ul li span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: var(--subtitle-color);
+}
+
+.info-data-description{
+  display: flex;
+
+  padding: 70px;
 }
