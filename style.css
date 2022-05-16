@@ -37,7 +37,7 @@ body {
 }
 
 .container{
-  max-width: 1277px;
+  width: 1277px;
 }
 
 .topo header{
@@ -178,10 +178,16 @@ body {
   list-style: none;
 }
 
-.info-data {
-  width: 100vw;
-  min-height: 600px;
+.full-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
+.info-data {
+  max-width: 1423px;
+  min-height: 600px;
+  
   display: flex;
   justify-content: center;
 
@@ -198,7 +204,6 @@ body {
   align-items: center;
 
   border-right: 1px solid var(--subtitle-color);
-  border-left: 1px solid var(--subtitle-color);
 }
 
 .info-data-number ul {
@@ -275,4 +280,9 @@ body {
 
 .info-data-banner{
   width: 100%;
+}
+
+.popular-of-the-week > div{
+  display: flex;
+  justify-content: space-between;
 }
