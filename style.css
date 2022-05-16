@@ -16,7 +16,7 @@
 
 html{
   font-family: 'Montserrat', sans-serif;
-  font-size: 62.5%;
+  font-size: 1rem;
 
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .container{
-  width: 1277px;
+  max-width: 1277px;
 }
 
 .topo header{
@@ -55,7 +55,7 @@ body {
 
 .topo header h1{
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 49px;
 
 }
@@ -179,9 +179,11 @@ body {
 }
 
 .info-data {
-  height: 660px;
+  width: 100vw;
+  min-height: 600px;
 
   display: flex;
+  justify-content: center;
 
   margin-bottom: 150px;
 
@@ -196,6 +198,7 @@ body {
   align-items: center;
 
   border-right: 1px solid var(--subtitle-color);
+  border-left: 1px solid var(--subtitle-color);
 }
 
 .info-data-number ul {
@@ -236,7 +239,40 @@ body {
 }
 
 .info-data-description{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-  padding: 70px;
+.info-data-description div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-data-description div div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 391px;
+  margin: 70px 0;
+
+}
+
+.info-data-description div p{
+  width: 100%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  
+  margin-bottom: 70px;
+
+}
+
+.info-data-banner{
+  width: 100%;
 }
