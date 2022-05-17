@@ -26,6 +26,11 @@ body {
   
 }
 
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 .topo{
   background-image: url(./assets/background.png);
   background-repeat: no-repeat;
@@ -178,6 +183,10 @@ body {
   list-style: none;
 }
 
+.galery ul li{
+  cursor: pointer;
+}
+
 .full-container{
   width: 100%;
   display: flex;
@@ -240,6 +249,8 @@ body {
   font-size: 20px;
   line-height: 24px;
 
+  cursor: pointer;
+
   color: var(--subtitle-color);
 }
 
@@ -278,7 +289,7 @@ body {
 
 }
 
-.info-data-banner{
+.info-data-banner img{
   width: 100%;
 }
 
@@ -304,7 +315,6 @@ body {
 .popular-of-the-week > div{
   display: flex;
   justify-content: space-between;
-
 }
 
 .popular-of-the-week > div ul{
@@ -322,6 +332,7 @@ body {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
+  cursor: pointer;
   
 }
 
@@ -348,14 +359,19 @@ body {
 
 .popular-of-the-week > div ul li div:nth-child(2) span:nth-child(1){
   color: var(--subtitle-color);
+  cursor: pointer;
 }
 
 .popular-of-the-week > div ul li div:nth-child(2) span:nth-child(2){
   color: var(--color-logo);
 }
 
+.popular-of-the-week > div ul li:nth-child(2) img{
+  cursor: pointer;
+}
 .popular-of-the-week > div ul li:nth-child(1) img{
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .best-artists{
@@ -397,6 +413,7 @@ body {
   align-items: center;
   gap: 40px;
 
+  cursor: pointer;
   background-color: var(--card-color);
 }
 
@@ -431,6 +448,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  cursor: pointer;
 }
 
 .best-artists p span{
@@ -485,6 +503,7 @@ footer{
   align-items: center;
 
   background-color: var(--color-logo);
+  cursor: pointer;
 }
 
 .middle-footer{
@@ -528,7 +547,7 @@ footer{
   width: 280px;
   padding: 25px 0 25px 25px;
   border: none;
-
+  
   background-color: var(--color-input);
   
   font-family: 'Montserrat';
@@ -540,6 +559,7 @@ footer{
 }
 
 .middle-footer .container div:nth-child(1) input[type=submit]{
+  cursor: pointer;
   width: 122px;
 
   padding: 25px 0;
@@ -570,6 +590,10 @@ footer{
   gap: 15px;
 }
 
+.middle-footer .container div:nth-child(2) ul li{
+  cursor: pointer;
+}
+
 .middle-footer .container div:nth-child(2) ul li:nth-child(1){
   font-family: 'Montserrat';
   font-style: normal;
@@ -594,6 +618,7 @@ footer{
 }
 
 .botton-footer .container p{
+  cursor: pointer;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -607,4 +632,8 @@ footer{
 
   list-style: none;
   gap: 50px;
+}
+
+.botton-footer .container ul li{
+  cursor: pointer;
 }
