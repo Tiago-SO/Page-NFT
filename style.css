@@ -282,7 +282,157 @@ body {
   width: 100%;
 }
 
+.popular-of-the-week{
+  margin-bottom: 151px;
+}
+
+.popular-of-the-week h2{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+
+  margin-bottom: 158px;
+
+}
+
+.popular-of-the-week h2 span{
+  color: var(--color-logo);
+}
+
 .popular-of-the-week > div{
   display: flex;
   justify-content: space-between;
+
+}
+
+.popular-of-the-week > div ul{
+  list-style: none;
+}
+
+.popular-of-the-week hr{
+  width: 1px;
+  background-color: var(--subtitle-color);
+}
+
+.popular-of-the-week > div p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  
+}
+
+.popular-of-the-week > div ul li div{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.popular-of-the-week > div ul li div:first-child{
+  margin-bottom: 44px;
+
+}
+
+.popular-of-the-week > div ul li div:nth-child(2){
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  margin-bottom: 26px;
+}
+
+.popular-of-the-week > div ul li div:nth-child(2) span:nth-child(1){
+  color: var(--subtitle-color);
+}
+
+.popular-of-the-week > div ul li div:nth-child(2) span:nth-child(2){
+  color: var(--color-logo);
+}
+
+.popular-of-the-week > div ul li:nth-child(1) img{
+  margin-bottom: 50px;
+}
+
+.best-artists{
+  margin-bottom: 148px;
+}
+
+.best-artists h2{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+
+  margin-bottom: 120px;
+
+}
+
+.best-artists h2 span{
+  color: var(--color-logo);
+}
+
+.best-artists ul{
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 111px;
+
+  margin-bottom: 63px;
+}
+
+.best-artists ul li{
+  width: 350px;
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  background-color: var(--card-color);
+}
+
+.best-artists ul li:nth-child(2){
+  background-color: var(--color-logo);
+}
+
+.best-artists ul li div p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.best-artists ul li div p:nth-child(1){
+  margin-bottom: 10px;
+}
+
+.best-artists ul li div p:nth-child(2){
+  color: var(--color-logo);
+}
+
+.best-artists ul li:nth-child(2) div p:nth-child(2){
+  color: var(--text-color);
+}
+
+.best-artists p{
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.best-artists p span{
+  margin-left: 13px;
 }
