@@ -436,3 +436,175 @@ body {
 .best-artists p span{
   margin-left: 13px;
 }
+
+.bottom{
+  background-color: var(--card-color);
+
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  width: 100%;
+}
+
+
+.top-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 222px;
+
+  border-bottom: 1px solid #5A5757;
+}
+
+.top-footer .container{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.top-footer .container h1{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.top-footer .container h1 span{
+  color: var(--color-logo);
+}
+
+.top-footer .container > span{
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-logo);
+}
+
+.middle-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid #5A5757;
+}
+
+.middle-footer .container{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.middle-footer .container div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  padding: 70px 62px 70px 0;
+  
+  border-right: 1px solid #5A5757;
+}
+
+.middle-footer .container div:nth-child(1) p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.middle-footer .container div:nth-child(1) p:nth-child(2){
+  color: var(--color-logo);
+
+  margin-bottom: 25px;
+}
+
+.middle-footer .container div:nth-child(1) input[type=email]{
+  width: 280px;
+  padding: 25px 0 25px 25px;
+  border: none;
+
+  background-color: var(--color-input);
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+.middle-footer .container div:nth-child(1) input[type=submit]{
+  width: 122px;
+
+  padding: 25px 0;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  border: none;
+}
+
+.middle-footer .container div:nth-child(2){  
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.middle-footer .container div:nth-child(2) ul{
+  list-style: none;
+
+  color: var(--subtitle-color);
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.middle-footer .container div:nth-child(2) ul li:nth-child(1){
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+.botton-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botton-footer .container{
+  height: 167px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botton-footer .container p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--subtitle-color);
+}
+
+.botton-footer .container ul{
+  display: flex;
+
+  list-style: none;
+  gap: 50px;
+}
